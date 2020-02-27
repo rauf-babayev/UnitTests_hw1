@@ -272,5 +272,6 @@ const reverseHalfAnArray = array => {
         half2[half2.length] = array[i];        
     }
     reverse = [...half2,...half1];
+    
     return reverse;    
 };
